@@ -20,9 +20,16 @@
         <h2 class="m-0">Instagram</h2>
       </div>
       <div class="d-flex">
-        <!-- Create New Post Button -->
-        <button class="btn btn-success btn-sm me-2" data-bs-toggle="modal" data-bs-target="#newPostModal">
+
+        <!-- Button for larger screens -->
+        <button class="btn btn-success btn-sm me-2 d-none d-md-inline" data-bs-toggle="modal"
+          data-bs-target="#newPostModal">
           Create a new post
+        </button>
+
+        <!-- Button for smaller screens -->
+        <button class="btn btn-success btn-sm d-inline d-md-none" data-bs-toggle="modal" data-bs-target="#newPostModal">
+          New Post
         </button>
 
         <div class="dropdown">

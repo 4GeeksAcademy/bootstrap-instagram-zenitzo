@@ -3,3 +3,16 @@
   height: 300px; 
   object-fit: cover; 
 }
+
+@media (max-width: 768px) {
+  .custom-image {
+    height: 200px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .custom-image {
+    height: 150px; 
+  }
+}
+
